@@ -25,7 +25,7 @@ do
 
 	case $msfmethod in
 		1)
-			echo -e "Enter remote host's address (RHOST) : " | lolcat
+			echo -e "\nEnter remote host's address (RHOST) : " | lolcat
 			read RHOST
 			echo -e "\nEnter Remote port's address (RPORT) : " | lolcat
 			read RPORT
