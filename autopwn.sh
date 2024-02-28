@@ -30,7 +30,7 @@ do
 			echo -e "\nEnter Remote port's address (RPORT) : " | lolcat
 			read RPORT
 
-			echo -e "STARTED TO PERFORM FTP ATTACK ON THE TARGET SYSTEM .... " | lolcat
+			echo -e "\nSTARTED TO PERFORM FTP ATTACK ON THE TARGET SYSTEM .... " | lolcat
 			sleep 2
 
 				expect <<EOF
